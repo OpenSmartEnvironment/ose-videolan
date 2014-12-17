@@ -1,7 +1,7 @@
 {
   "name": "ose-videolan",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jan Snasel <snaselj@gmail.com>",
   "description": "Open Smart Environment VideoLAN package",
   "contributors": [
@@ -19,10 +19,9 @@
     "type": "git",
     "url": "https://github.com/opensmartenvironment/ose-videolan.git"
   },
-  "keywords": [
-  ],
-  "dependencies" : {
-    "ndbus"  :  "*"
+  "keywords": [],
+  "dependencies": {
+    "ndbus": "*"
   },
   "license": "GPL-3.0+"
 }
