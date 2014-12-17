@@ -3,7 +3,7 @@
   "preferGlobal": true,
   "version": "0.1.0",
   "author": "Jan Snasel <snaselj@gmail.com>",
-  "description": "Open Smart Environment plugin for controlling VideoLAN software",
+  "description": "Open Smart Environment VideoLAN package",
   "contributors": [
     {
       "name": "Jan Snasel",
@@ -15,6 +15,10 @@
     }
   ],
   "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensmartenvironment/ose-videolan.git"
+  },
   "keywords": [
   ],
   "dependencies" : {
