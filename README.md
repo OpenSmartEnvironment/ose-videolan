@@ -6,6 +6,8 @@ into OSE.
 It allows the [OSE Media player](http://opensmartenvironment.github.io/doc/modules/media.html) to use VLC as its playback
 application and DVBlast as its DVB streamer.
 
+See [bundle.media](http://opensmartenvironment.github.io/doc/modules/bundle.media.html) example application
+
 ## Status
 - Pre-alpha stage (insecure and buggy)
 - Unstable API
@@ -13,7 +15,8 @@ application and DVBlast as its DVB streamer.
 - No test suite
 
 This is not yet a piece of download-and-use software. Its important
-to understand the basic principles covered by this documentation.
+to understand the basic principles covered by the
+[documentation](http://opensmartenvironment.github.io/doc/).
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
