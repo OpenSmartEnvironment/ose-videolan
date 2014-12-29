@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE VideoLAN content
+ * @caption VideoLAN content
  *
  * @readme
- * Provides files of OSE VideoLAN package to the browser.
+ * Provides files of [ose-videolan] package to the browser.
  *
  * @class videolan.content
  * @type singleton

@@ -1,12 +1,12 @@
-# Open Smart Environment VideoLAN package
+# Open Smart Environment - VideoLAN
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package contains [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) integrating VideoLAN software
-into OSE.
-
-It allows the [OSE Media player](http://opensmartenvironment.github.io/doc/modules/media.html) to use VLC as its playback
-application and DVBlast as its DVB streamer.
-
-See [bundle.media](http://opensmartenvironment.github.io/doc/modules/bundle.media.html) example application
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -20,58 +20,27 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment VideoLAN package consists of the following modules:
-- DVBlast kind
-- DVBlast response socket
-- VLC kind
-- OSE VideoLAN core
-- OSE VideoLAN content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### DVBlast kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) allowing to control DVBlast software
+## Package description
+This package contains [entry kinds] integrating VideoLAN software
+into OSE.
 
-Module [DVBlast kind](http://opensmartenvironment.github.io/doc/classes/videolan.lib.dvblast.html) reference ... 
+It allows the [Media player] to use VLC as its playback
+application and DVBlast as its DVB streamer.
 
-### DVBlast response socket
-[Response socket](http://opensmartenvironment.github.io/doc/modules/ose.link.html) relaying the switch entry events to the client.
+See [Media player example].
 
-TODO
-
-Module [DVBlast response socket](http://opensmartenvironment.github.io/doc/classes/videolan.lib.dvblast.master.html) reference ... 
-
-### VLC kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) allowing to control VLC
-
-Module [VLC kind](http://opensmartenvironment.github.io/doc/classes/videolan.lib.vlc.html) reference ... 
-
-### OSE VideoLAN core
-Core singleton of ose-videolan npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"control"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
-
-Module [OSE VideoLAN core](http://opensmartenvironment.github.io/doc/classes/videolan.lib.html) reference ... 
-
-### OSE VideoLAN content
-Provides files of OSE VideoLAN package to the browser.
-
-Module [OSE VideoLAN content](http://opensmartenvironment.github.io/doc/classes/videolan.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-videolan" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-videolan#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General
