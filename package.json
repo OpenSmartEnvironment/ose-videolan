@@ -21,7 +21,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "ndbus": "*"
+    "ndbus": "0.0.1"
   },
   "license": "GPL-3.0+"
 }
