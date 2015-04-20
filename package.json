@@ -21,7 +21,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "ndbus": "0.0.1",
+    "dbus-native": "^0.2.0",
     "tmp": "0.0.24"
   },
   "license": "GPL-3.0+"
