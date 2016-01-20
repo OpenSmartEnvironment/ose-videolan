@@ -1,6 +1,9 @@
 'use strict';
 
-var O = require('ose').object(module, Init, 'ose/lib/http/content');
+const O = require('ose')(module)
+  .singleton(init, 'ose/lib/http/content')
+;
+
 exports = O.init();
 
 /** Docs  {{{1
@@ -19,8 +22,8 @@ exports = O.init();
  */
 
 // Public {{{1
-function Init() {
-  O.super.call(this);
+function init() {
+  O.inherited(this)();
 
   this.addModule('lib/index');
   this.addModule('lib/dvblast/index');
